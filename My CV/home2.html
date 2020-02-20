@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mfundo's CV</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Mfundo's CV">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+    
+
+    <style>
+
+        .header-title
+        {
+            background: center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%
+        }
+        .nav-bar
+        {
+            position: relative;
+            text-align: center;
+            float: none;
+        }
+
+        .nav-bar>li 
+        {
+            float: none;
+            display: inline-block;
+        }
+
+        .nav-bar>li>a
+        {
+            display: block;
+            padding: 25px 25px;
+            line-height: 30px;
+            font-weight: 400;
+            text-transform: uppercase;
+            transition: 0.4s all;
+            color: #fff;
+        }
+
+        .nav-bar .logo {
+            display: inline-block;
+            line-height: 70px;
+            height: 70px;
+            bottom: 0;
+        }
+
+       
+
+        .navigation
+        {
+            /*border-bottom: 1px solid #000000;*/
+            background:aqua;           
+        }
+
+        .nav-bar li a:hover
+        {
+            color:#000000 !important;
+            background-color: #fff;
+        }
+
+        .start-section
+        {
+            background-color: #d4e7fa;
+        }
+
+        .profile-img
+        {
+            border-radius: 40%;
+            margin-bottom: 20px;
+        }
+        
+        .general-section
+        {
+            background: #000000;
+	        padding: 20px 0;
+        }
+
+        .workE-section
+        {
+            background-color: #d4e7fa;
+        }
+
+        .top-text {
+            margin-bottom: 80px;
+        }
+
+        .top-text h2 
+        {
+            font-size: 100px;
+            line-height: normal;
+            margin-bottom: 30px;
+        }
+
+        .top-text p 
+        {
+            font-size: 33px;
+            line-height: 1.3;
+        }
+
+        .gen-info ul {
+            list-style: none;
+        }
+
+        .gen-info ul li {
+            font-size: 24px;
+            color: #808181;
+            margin-bottom: 15px;
+        }
+
+        .gen-info ul li span {
+            color: #40424a;
+            display: inline-block;
+            min-width: 220px;
+        }
+
+        .point-list {
+            list-style: none;
+            margin-left: 60px;
+            padding-left: 110px;
+            padding-right: 30px;
+            border-left: 2px solid #40424a;
+        }
+
+        .point-list li {
+            margin-bottom: 120px;
+            position: relative;
+        }
+
+        .point-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .point-list li:after {
+            position: absolute;
+            content: '';
+            width: 15px;
+            height: 15px;
+            border: 2px solid #40424a;
+            border-radius: 50px;
+            background: #cacaca;
+            top: 30px;
+            left: -118px;
+        }
+
+        .point-list h2 {
+            font-size: 72px;
+            margin-bottom: 10px;
+        }
+
+        .point-list h4 {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #808181;
+            margin-top: 10px;
+            margin-bottom: 45px;
+        }
+
+        .point-list p {
+            margin-bottom: 0;
+        }
+
+        .head-title
+        {
+            display: inline-block;
+            position: relative;
+            margin-bottom: 110px;
+            padding-bottom: 2px;
+            line-height: normal;
+        }
+        /* Underline Head Titles */
+        .head-title::after 
+        {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 4px;
+            left: 0;
+            bottom: 0;
+            background: #111010;
+        }
+
+        .box
+        {
+            height: 600px; 
+            width: 80%; 
+            display: table; 
+           
+            background-color: #d4e7fa;
+            margin-bottom: 10px
+        }
+
+        .tags-list ul li 
+        {
+        display: inline-block;
+        margin-right: 4px;
+        margin-bottom: 26px;
+        }
+
+        .tags-list ul li a 
+        {
+        display: block;
+        padding: 10px 15px;
+        font-size: 30px;
+        font-weight: 300;
+        color:#111010;
+        background-color: white;
+        border-radius: 2px;
+        transition: 0.4s all;
+        }
+
+        .tags-list ul li a:hover, .tags-widget ul li a:focus 
+        {
+        color: #fff !important;
+        background-color:#000000;
+        }
+
+        .social-borders
+        {
+            border-top: 1px solid #111c0c;
+            padding: 10px 10px 10px 10px;
+        }
+
+        .social-borders a i
+        {
+            margin-right: 12px;
+            margin-left: 12px; 
+        }
+
+        .social-borders a i
+        {
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .copyright 
+        {
+            padding-top: 5px;
+            font-size: 12px;
+            color: #ffffff;
+            line-height: normal;
+        }
+
+        .footer-section 
+        {
+            background: #302f2f;
+            padding: 20px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--Add navbar
+    <div class="navigation">
+        <div class="row">
+            <div class="col-2">
+                <div class="nav-logo">    
+                    <a class="logo"><img src="img/MD.jpg" width="90px" height="70px"></a>
+                </div>
+            </div>
+            <div class="col-8">
+                <ul class="nav-bar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+-->
+    <nav class="navbar navbar-default navbar-fixed-top navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="home.html">MD</a>
+        </div>
+        <div class="">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="w-100">
+            <div class="container-fluid text-center">
+                <div class="pb-1 start-section">
+                    <figure style="padding-top: 70px"><img class="profile-img" src="img/myPhoto.jpg" height="410px" width="420px" alt=""></figure>
+                    <div class="top-text">
+                        <h2>Mfundo Dhladhla</h2>
+                        <div class="col-4 text-center mx-auto">
+                            <p>I’m a front-end Web Developer in love with design and code</p>    
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="general-section">
+        
+            <div class="row">
+                <div class="col-xl-11 offset-xl-1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="gen-info mb-3">
+                                <ul>
+                                    <li><span>Date of Birth: </span>24 April 1998</li>
+                                    <li><span>Languages: </span>isiZulu & English</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="gen-info">
+                                <ul>
+                                    <li><span>E-mail: </span>mdhladhla98@gmail.com</li>
+                                    <li><span>Phone: </span>+27 81 263 4925</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <!-- Resume section start -->
+	<section class="resume-section spad">
+        
+            <div class="row">
+                <div class="col-xl-7 offset-xl-1">
+                    <div class="head-title">
+                        <h1>Education</h1>
+                    </div>
+                    <ul class="point-list">
+                        <li>
+                            <h2>2011-2015</h2>
+                            <h3>Clifton High School</h3>
+                            <h4>Matriculation</h4>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>-->
+                        </li>
+                        <li>
+                            <h2>2016-Present</h2>
+                            <h3>Univercity of Cape Town</h3>
+                            <h4>Undergraduate Degree</h4>
+                            <p>Currently studying a Bachelor of Commerce in Computer Science & Information System degree. 
+                                I have been exposed to Java, Phython, Android Mobile Development, Web Development, Scrum/Agile Methodology, Work Environment, etc.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl->4">
+                    <div class="nav-bar">
+                        <figure>
+                        <video id="educ" height="590px" width="580px" autoplay muted loop>
+                            <source src="img/11793-books-stack.mp4" type="video/mp4">
+                        </video>
+                        </figure> 
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <!-- Resume section start -->
+	<section class="resume-section spad workE-section">
+        <div class="row">
+            <div class="col-xl-7 offset-xl-1">
+                <div class="head-title">
+                    <h1>Work Experience</h1>
+                </div>
+                <ul class="point-list">
+                    <li>
+                        <h2>Apr 2019-Sep 2019</h2>
+                        <h3>Kumba Africa</h3>
+                        <h4>Full Stack Developer Internship</h4>
+                        <p>A full-stack web developer role, where I worked on mulitiple web developement projects during the time period. 
+                            Implemented new UI with Bootstrap, NodeJS and Javascript. Also created sign up forms for customers, using HTML, CSS and Javascript. </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="resume-section spad">
+        <div class="row">
+            <div class="col-5 offset-1">
+                <div class="head-title ">
+                    <h1>Skills</h1>
+                </div>
+                <div class="text-center mb-3 box">
+                    <div style="padding-top: 70px;">
+                       <!-- <figure style="padding-top: 70px"><img src="img/myPhoto.jpg" height="90px" width="90px" alt="" ></figure>-->
+                    </div>
+                    <div class="tags-list">
+                        <ul>
+                            <li><a href="#">Javascript</a></li>
+                            <li><a href="#">Python</a></li>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">SQL</a></li><br>
+                            <li><a href="#">Linux</a></li>
+                            <li><a href="#">Bootstrap</a></li>
+                            <li><a href="#">NodeJS</a></li>
+                            <li><a href="#">Angular</a></li>
+                            <li><a href="#">Android Mobile Development</a></li>
+                            <li><a href="#">Agile Methodology</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 offset-1">
+                <div class="head-title">
+                    <h1>Achievements</h1>
+                </div>
+                <div class="text-center mb-3 box">
+                    <div style="padding-top: 70px;">
+                        <figure style="padding-top: 70px"><img src="img/myPhoto.jpg" height="90px" width="90px" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="mx-auto">
+            <div class="social-borders">
+                <a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram" title="Instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook" title="Facebook"></i></a>
+                <a href="#"><i class="fa fa-github" title="GitHub"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-section">
+        <div class="copyright text-center">
+            <p>Copyright 2020</p>
+        </div>
+    </footer>
+
+    <!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

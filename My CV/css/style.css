@@ -1,0 +1,259 @@
+/*----------------------------------------*/
+/* Template default CSS
+/*----------------------------------------*/
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: monospace;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.header-title {
+	background: center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: 100%;
+}
+
+.nav-bar {
+	position: relative;
+	float: none;
+}
+
+.nav-bar>li {
+	float: none;
+	display: inline-block;
+}
+
+.nav-bar>li>a {
+	display: block;
+	padding: 10px 20px;
+	line-height: 30px;
+	font-weight: 490;
+	text-transform: uppercase;
+	transition: 0.4s all;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav-bar .logo {
+	display: inline-block;
+	line-height: 70px;
+	height: 70px;
+	bottom: 0;
+}
+
+.navigation {
+	z-index: 99;
+	background: rgb(0, 0, 0);
+	/*background: linear-gradient(22deg, white, transparent);*/
+}
+
+.menu-sec {
+	padding: 10px 0px;
+}
+
+.nav-bar li a:hover, .active {
+	color: red !important;
+}
+
+.start-section {
+	background-color: #d4e7fa;
+}
+
+.profile-img {
+	border-radius: 40%;
+	margin-bottom: 20px;
+}
+
+.general-section {
+	background: #000000;
+	padding: 20px 0;
+}
+
+.workE-section {
+	background-color: #d4e7fa;
+}
+
+.point-list {
+	list-style: none;
+	margin-left: 60px;
+	padding-bottom: 30px;
+	padding-left: 60px;
+	padding-right: 30px;
+	border-left: 2px solid #40424a;
+}
+
+.point-list li {
+	margin-bottom: 120px;
+	position: relative;
+}
+
+.point-list li:last-child {
+	margin-bottom: 0;
+}
+
+.point-list li:after {
+	position: absolute;
+	content: "";
+	width: 15px;
+	height: 15px;
+	border: 2px solid #4b4545;
+	border-radius: 50px;
+	background: #cacaca;
+	top: 30px;
+	left: -69px;
+}
+
+.point-list h2 {
+	font-size: 52px;
+	margin-bottom: 10px;
+}
+
+.point-list h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #808181;
+	margin-top: 10px;
+	margin-bottom: 45px;
+}
+
+.point-list p {
+	margin-bottom: 0;
+}
+
+.social-borders {
+	border-top: 1px solid #111c0c;
+	padding: 10px 10px 10px 10px;
+}
+
+.social-borders a i {
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+.social-borders a i {
+	font-size: 40px;
+	color: #000000;
+}
+
+.copyright {
+	padding-top: 5px;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: normal;
+}
+
+.footer-section {
+	background: #000000;
+	padding: 20px 0;
+	width: 100%;
+	height: 100px;
+}
+
+button {
+	background: transparent;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	font-size: 20px;
+	padding: 7px 20px;
+}
+
+button:hover {
+	color: #000000 !important;
+	background-color: #ff0000 !important;
+	border: 1px solid #ff0000 !important;
+	border-radius: 70px;
+	transition-delay: 0.8s all;
+}
+
+.info-row {
+	height: 80px;
+	width: 700px;
+	border-left: 1px solid #000000;
+	margin: 14px 19px;
+}
+
+.info-row img {
+	float: left;
+	margin: 10px 10px;
+}
+
+.info-row h2 {
+	float: left;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.project-box {
+	z-index: 0;
+	display: block;
+	position: relative;
+}
+
+.project-box .project-pic {
+	display: block;
+	z-index: -1;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+.project-pic {
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.project-box .desc {
+	width: 90%;
+	background: #fff;
+	margin-top: -3em;
+	z-index: 1;
+	padding: 1em;
+}
+
+.project-box .desc h2 {
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.header h1 {
+	border-bottom: 3px groove;
+	width: fit-content;
+}
+
+.profile-img {
+	border-radius: 0%;
+	height: 140px;
+	margin-right: 40px;
+	vertical-align: top;
+	float: left;
+}
+
+.info-row a, .camo {
+	text-decoration: none;
+	color: #000000;
+}
+
+.header h1 {
+	border-bottom: 3px groove;
+	width: fit-content;
+}
+
+.about-me{
+	margin-left: 60px;
+}
